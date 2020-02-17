@@ -1,6 +1,5 @@
    'use strict';
 
-
    var user = [
        'img/avatars/user01.png',
        'img/avatars/user02.png',
@@ -128,7 +127,6 @@
 
    ];
 
-
     var location = [
 
         {
@@ -174,8 +172,6 @@
     ];
 
 
-
-
     var createAuthors = function () {
         var authors = [];
         for (var i = 0; i < 8; i++) {
@@ -191,7 +187,6 @@
     };
      
 createAuthors();
-
 
 
 var removeMap = document.querySelector('.map');
